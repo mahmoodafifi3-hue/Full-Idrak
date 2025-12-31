@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Supplement Recommendation Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Find the Right Supplement for You</h1>
+    <p class="subtitle">
+      Select your health goals and get a personalized recommendation.
+    </p>
+
+    <h2>What are you looking to improve?</h2>
+
+    <div class="checkbox-group">
+      <label><input type="checkbox" value="energy"> Energy & fatigue</label>
+      <label><input type="checkbox" value="focus"> Focus & memory</label>
+      <label><input type="checkbox" value="joints"> Joint comfort & mobility</label>
+      <label><input type="checkbox" value="gut"> Digestive or gut health</label>
+      <label><input type="checkbox" value="sleep"> Sleep & relaxation</label>
+      <label><input type="checkbox" value="stress"> Stress & hormone balance</label>
+      <label><input type="checkbox" value="beauty"> Skin, hair & nails</label>
+      <label><input type="checkbox" value="libido"> Libido & vitality</label>
+      <label><input type="checkbox" value="wellness"> Overall daily wellness</label>
+    </div>
+
+    <button onclick="getResult()">Get My Recommendation</button>
+
+    <div id="result" class="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
